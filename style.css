@@ -29,6 +29,11 @@ main {
 }
 footer {
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
     /* background-color: black; */
     /* border: 1px solid red; */
 }
@@ -52,13 +57,13 @@ footer {
     flex-direction: column;
     top: -1em;
 }
-footer {
+/* footer {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     position: relative;
-}
+} */
 #todo-list {
     font-weight: 700;
 }
