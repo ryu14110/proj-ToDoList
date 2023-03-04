@@ -20,7 +20,7 @@ nav {
     font-weight: 900;
 }
 main {
-    height: 700px;
+    height: 600px;
     /* background-color: rgba(41, 65, 171); */
     /* border: 1px solid blue; */
     display: flex;
@@ -56,7 +56,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
 }
 #todo-list {
