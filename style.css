@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+   font-family: Circular,Arial, Helvetica, sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hidden {
+    display: none;
+}
+
+nav {
+    height: 200px;
+    /* background-color: black; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 900;
+}
+main {
+    height: 700px;
+    /* background-color: rgba(41, 65, 171); */
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    height: 100px;
+    /* background-color: black; */
+    /* border: 1px solid red; */
+}
+.main-container {
+    /* border: 1px solid black; */
+    
+}
+.headline {
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    top: 0em
+
+}
+.headline-2 {
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: -1em;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#todo-list {
+    font-weight: 700;
+}
+#quote {
+    font-size: 25px;
+    font-weight: 600;
+}
+#weather {
+    font-size: 30px;
+    font-weight: 800;
+}
+.input-box {
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+    padding-left: 40px;
+}
+.style-button {
+    padding: 20 30px;
+    box-shadow: 1px 1px 1px #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    cursor: pointer;
+}
